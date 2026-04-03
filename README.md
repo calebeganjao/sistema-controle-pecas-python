@@ -30,6 +30,58 @@ O sistema possui um menu interativo com as seguintes opções:
 
 ---
 
+## Exemplos de entrada e saída
+Exemplo 1: peça aprovada
+
+Entrada:
+
+ID: P001
+Peso: 100
+Cor: azul
+Comprimento: 15
+
+Saída esperada:
+
+Peça cadastrada com sucesso.
+Status: Aprovada
+Exemplo 2: peça reprovada
+
+Entrada:
+
+ID: P002
+Peso: 110
+Cor: vermelho
+Comprimento: 8
+
+Saída esperada:
+
+Peça cadastrada com sucesso.
+Status: Reprovada
+Exemplo 3: relatório final
+
+Saída esperada:
+
+RELATÓRIO FINAL
+Total de peças cadastradas: 2
+Peças aprovadas: 1
+Peças reprovadas: 1
+Caixas fechadas: 0
+Peças na caixa atual: 1
+Estruturas utilizadas no desenvolvimento
+
+---
+
+## No desenvolvimento do projeto foram utilizados:
+
+Variáveis
+Listas
+Funções
+Estruturas condicionais (if, elif, else)
+Estruturas de repetição (while e for)
+Entrada e saída de dados com input() e print()
+
+---
+
 ## Como rodar o programa
 
 ### Passo a passo
@@ -40,4 +92,3 @@ O sistema possui um menu interativo com as seguintes opções:
    
 ```bash
 python main.py
-
